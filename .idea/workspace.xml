@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de1b2b48-4188-4590-b8ec-5a52ff4dad2d" name="Changes" comment="volume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
     </list>
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,39 +52,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.increaseVolumeMax">
-    <configuration name="RadioTest.decreaseVolume1_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW10_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.radio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="decreaseVolume1_10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.decreaseVolumeMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW10_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.radio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="decreaseVolumeMin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RadioTest.increaseVolume0_9">
     <configuration name="RadioTest.increaseVolume0_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
@@ -113,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.pressPrevIf0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldGetVolumeLvl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +95,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="pressPrevIf0" />
+      <option name="METHOD_NAME" value="shouldGetVolumeLvl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetVolumeLvlLess0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetVolumeLvlLess0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetVolumeLvlMore10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetVolumeLvlMore10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
-        <item itemvalue="JUnit.RadioTest.decreaseVolumeMin" />
-        <item itemvalue="JUnit.RadioTest.decreaseVolume1_10" />
         <item itemvalue="JUnit.RadioTest.increaseVolume0_9" />
-        <item itemvalue="JUnit.RadioTest.pressPrevIf0" />
+        <item itemvalue="JUnit.RadioTest.shouldSetVolumeLvlLess0" />
+        <item itemvalue="JUnit.RadioTest.shouldSetVolumeLvlMore10" />
+        <item itemvalue="JUnit.RadioTest.shouldGetVolumeLvl" />
+        <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667738103338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="volume">
+      <created>1667744263155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667744263155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +195,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

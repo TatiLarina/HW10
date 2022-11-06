@@ -1,8 +1,8 @@
 package ru.netology.radio;
 
 public class Radio {
-    int currentStation;
-    int currentVolumeLvl;
+    private int currentStation;
+    private int currentVolumeLvl;
 
     //Переключение станций//
     public int getCurrentStation() {
@@ -37,6 +37,13 @@ public class Radio {
 
     public int getCurrentVolumeLvl() {
         return currentVolumeLvl;
+    }
+
+    public void setCurrentVolumeLvl(int newCurrentVolumeLvl) {
+        if ((newCurrentVolumeLvl > 10) | (newCurrentVolumeLvl < 0)) {
+            return;
+        }
+        currentVolumeLvl = newCurrentVolumeLvl;
     }
 
     public void increaseVolume() {
