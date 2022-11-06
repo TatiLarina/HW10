@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1b2b48-4188-4590-b8ec-5a52ff4dad2d" name="Changes" comment="pom">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
+    <list default="true" id="de1b2b48-4188-4590-b8ec-5a52ff4dad2d" name="Changes" comment="station">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +42,8 @@
     "last_directory_selection": "C:/Users/jerrymurr/IdeaProjects/HW10_1/src/test/java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldGetVolumeLvl">
-    <configuration name="RadioTest.shouldGetStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.pressPrevIf0">
+    <configuration name="RadioTest.pressNextMore9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -54,13 +53,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldGetStation" />
+      <option name="METHOD_NAME" value="pressNextMore9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldGetVolumeLvl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.pressPrevIf0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +69,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldGetVolumeLvl" />
+      <option name="METHOD_NAME" value="pressPrevIf0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetStation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetStationLess0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetStationLess0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetStationMore9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetStationMore9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.shouldGetVolumeLvl" />
-        <item itemvalue="JUnit.RadioTest.shouldGetStation" />
+        <item itemvalue="JUnit.RadioTest.pressPrevIf0" />
+        <item itemvalue="JUnit.RadioTest.pressNextMore9" />
+        <item itemvalue="JUnit.RadioTest.shouldSetStationMore9" />
+        <item itemvalue="JUnit.RadioTest.shouldSetStationLess0" />
+        <item itemvalue="JUnit.RadioTest.shouldSetStation" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667654172017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="getters">
+      <created>1667655065481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667655065481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +180,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
     <MESSAGE value="pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom" />
+    <MESSAGE value="getters" />
+    <MESSAGE value="station" />
+    <option name="LAST_COMMIT_MESSAGE" value="station" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
