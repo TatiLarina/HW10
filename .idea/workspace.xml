@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1b2b48-4188-4590-b8ec-5a52ff4dad2d" name="Changes" comment="volume">
+    <list default="true" id="de1b2b48-4188-4590-b8ec-5a52ff4dad2d" name="Changes" comment="last_commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
@@ -38,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/jerrymurr/IdeaProjects/HW10_1/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/jerrymurr/IdeaProjects/HW10_1/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.increaseVolume0_9">
-    <configuration name="RadioTest.increaseVolume0_9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.decreaseVolume1_100">
+    <configuration name="RadioTest.decreaseVolume1_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +63,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="increaseVolume0_9" />
+      <option name="METHOD_NAME" value="decreaseVolume1_100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.increaseVolume0_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW10_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.radio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.radio" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="METHOD_NAME" value="increaseVolume0_100" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldGetVolumeLvl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.pressNextIfMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +111,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldGetVolumeLvl" />
+      <option name="METHOD_NAME" value="pressNextIfMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSetVolumeLvlLess0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldSetVolumeLvlMore100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10_1" />
       <extension name="coverage">
         <pattern>
@@ -111,23 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSetVolumeLvlLess0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.shouldSetVolumeLvlMore10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW10_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.radio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSetVolumeLvlMore10" />
+      <option name="METHOD_NAME" value="shouldSetVolumeLvlMore100" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.increaseVolume0_9" />
-        <item itemvalue="JUnit.RadioTest.shouldSetVolumeLvlLess0" />
-        <item itemvalue="JUnit.RadioTest.shouldSetVolumeLvlMore10" />
-        <item itemvalue="JUnit.RadioTest.shouldGetVolumeLvl" />
+        <item itemvalue="JUnit.RadioTest.decreaseVolume1_100" />
         <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
+        <item itemvalue="JUnit.RadioTest.increaseVolume0_100" />
+        <item itemvalue="JUnit.RadioTest.shouldSetVolumeLvlMore100" />
+        <item itemvalue="JUnit.RadioTest.pressNextIfMax" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667744263155</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="last_commit">
+      <created>1667746886763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667746886763</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +241,14 @@
     <MESSAGE value="getters" />
     <MESSAGE value="station" />
     <MESSAGE value="volume" />
-    <option name="LAST_COMMIT_MESSAGE" value="volume" />
+    <MESSAGE value="last_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last_commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="radio" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
